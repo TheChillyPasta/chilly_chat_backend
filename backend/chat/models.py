@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from wsmChat.models import TimestampModel
+from backend.models import TimestampModel
 from accounts.models import CustomUser as User
 
 class Chat(TimestampModel):

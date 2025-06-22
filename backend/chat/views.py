@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import generics
 from .serlializers import ChatSerializer , MessageSerializer , GetUsers
-from wsmChat.chat.models import *
+from backend.chat.models import *
 from rest_framework.exceptions import PermissionDenied
 from rest_framework.parsers import MultiPartParser , FormParser
 

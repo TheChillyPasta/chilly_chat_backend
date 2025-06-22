@@ -4,7 +4,7 @@ from accounts.models import CustomUser
 from rest_framework.exceptions import ValidationError
 from accounts.serializers import RegisterSerializer
 from django.db.models import Count
-from wsmChat.chat.models import *
+from backend.chat.models import *
 
 class ChatSerializer(serializers.Serializer):
     user_id = serializers.IntegerField()
